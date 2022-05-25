@@ -4,17 +4,17 @@
 #!/usr/bin/env bash
 #!/data/data/com.termux/files/usr/bin/bash
 ###############################################
-# Name : Anlominus ~ Diablo
-# Description : Diablo ~ enter you target and get Markdown Report.
+# Name : Anlominus ~ CleanerPro
+# Description : Diablo ~
 # Date : 2022 May
 Anlominus="Anlominus"
 # Last UPDATE : 2022 May 25
-# Aouther: Anlominus ~> RhytMix ~> Diablo
+# Aouther: Anlominus ~> RhytMix ~> CleanerPro
 # Skils: Best Copywriter IN the COSMOS!
 # BIG THANX TO ALL COMUNITY THAT SHARE ALL THAT FREE GREAT SCRIPTS
 # CREDIT: To All World Creators free Scripts & Tools
 # Location: Made With LOVE IN ISRAEL !
-# Source: https://github.com/Anlominus/Diablo
+# Source: https://github.com/Anlominus/CleanerPro
 ###############################################
 clear
 ###############################################
@@ -100,9 +100,13 @@ On_White='\033[47m'  # White
 }
 DiabloColors
 ###############################################
+
+#
 echo "\n\t\t${BRed}[${DGrey}!${BRed}]${BWhite} - ${DGrey}Search Log in /var/log {${LGrey}*.log${DGrey}} \n${LRed}"
 ls -l1 /var/log/*.log
 echo " "
+
+#
 echo "\n\t\t${BRed}[${DGrey}!${BRed}]${BWhite} - ${DGrey}Search Log in /var/log {${LGrey}*.log*${DGrey}} \n${LRed}"
 ls -l1 /var/log/*.log*
 echo " "
