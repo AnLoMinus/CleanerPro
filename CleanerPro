@@ -100,5 +100,9 @@ On_White='\033[47m'  # White
 }
 DiabloColors
 ###############################################
-echo "\n\t\t${BRed}[${BCyan}!${BRed}]${BWhite} - ${BRed}Search in /var/log {*.log} "
+echo "\n\t\t${BRed}[${DGrey}!${BRed}]${BWhite} - ${DGrey}Search Log in /var/log {${LGrey}*.log${DGrey}} \n${LRed}"
 ls -l1 /var/log/*.log
+echo " "
+echo "\n\t\t${BRed}[${DGrey}!${BRed}]${BWhite} - ${DGrey}Search Log in /var/log {${LGrey}*.log*${DGrey}} \n${LRed}"
+ls -l1 /var/log/*.log*
+echo " "
